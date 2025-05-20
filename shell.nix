@@ -19,6 +19,8 @@ pkgs.mkShell {
     pythonPackages.scikit-learn
     pythonPackages.lightgbm
     pythonPackages.shap
+    pythonPackages.optuna
+
   ];
   venvDir = "./.venv";
   postVenvCreation = ''
